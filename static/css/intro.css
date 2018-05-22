@@ -1,0 +1,20 @@
+/* Not so much Y offset */
+.intro {
+  transform: translateY(2vh);
+}
+
+/* Reduce title page font size */
+.intro > h1 {
+  font-size: 8vh;
+}
+
+.intro > h2 {
+    font-size: 1.2em;
+}
+
+/* Banner */
+.intro > .profile {
+  height: auto;
+  width: 75%;
+  border-radius: 0;
+}
