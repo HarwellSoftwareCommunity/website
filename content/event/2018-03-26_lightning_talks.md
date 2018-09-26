@@ -5,7 +5,7 @@ tags: ["talk", "networking"]
 draft: false
 ---
 
-When: 2018-03-26
+When: 26th March 2018
 
 Where: R18 Visitors Centre, RAL
 

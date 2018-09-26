@@ -5,7 +5,7 @@ tags: ["talk", "networking"]
 draft: false
 ---
 
-When: 2018-02-12 13:00-14:00
+When: 12th February 2018 13:00-14:00
 
 Where: CR16&17, R80, RAL
 

@@ -5,7 +5,7 @@ tags: ["talk", "demo", "networking"]
 draft: false
 ---
 
-When: 2018-05-14
+When: 14th May 2018
 
 Where: Videowall Room, Satellite Applications Catapult
 
