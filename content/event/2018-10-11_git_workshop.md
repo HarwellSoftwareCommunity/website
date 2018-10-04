@@ -5,9 +5,9 @@ tags: ["workshop"]
 draft: false
 ---
 
-When: 11th October 2018 12:00-13:00
+When: TBD
 
-Where: CR16/17, R80 (Target Station 2), RAL
+Where: TBD
 
 Dan Nixon gives an introductory tutorial to the Git source control management
 software and its use in a collaborative software project.
