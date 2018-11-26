@@ -1,0 +1,265 @@
+
+
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Git for collaborative software projects - </title>
+
+		<meta name="description" content="- description not found -">
+		<meta name="author"      content="Dan Nixon">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Git for collaborative software projects</h1>
+					<h3></h3>
+					<p>
+						<small>by Dan Nixon</small>
+					</p>
+				</section>
+
+        
+        <section>
+          
+<!-- _S9SLIDE_ -->
+<h1 id="what-is-git">What is Git?</h1>
+
+<ul>
+  <li>Distributed version control system
+    <ul>
+      <li>Versioning/change tracking</li>
+      <li>Branching/merging</li>
+      <li>Tagging</li>
+      <li>Signing</li>
+    </ul>
+  </li>
+  <li>Standard for most software projects today</li>
+  <li>Unfortunately, often underused/misused…</li>
+</ul>
+
+
+
+        </section>
+        
+        <section>
+          <!-- _S9SLIDE_ -->
+<h1 id="tools">Tools</h1>
+
+<ul>
+  <li>Good:
+    <ul>
+      <li>Git CLI (<code>https://www.git-scm.com</code>)</li>
+      <li>GitKraken (<code>https://www.gitkraken.com</code>)</li>
+    </ul>
+  </li>
+  <li>Moderately terrible:
+    <ul>
+      <li>GitHub Desktop</li>
+      <li>Git plugin for Visual Studio</li>
+    </ul>
+  </li>
+</ul>
+
+
+
+        </section>
+        
+        <section>
+          <!-- _S9SLIDE_ -->
+<h1 id="demo-repository">Demo repository</h1>
+
+<p><code>https://github.com/DanNixon/git_workshop</code></p>
+
+
+
+        </section>
+        
+        <section>
+          <!-- _S9SLIDE_ -->
+<h1 id="the-basics">The basics</h1>
+
+<ul>
+  <li><code>git init</code></li>
+  <li><code>git checkout</code></li>
+  <li><code>git status</code></li>
+  <li><code>git log</code></li>
+  <li><code>git commit</code></li>
+</ul>
+
+
+
+        </section>
+        
+        <section>
+          <!-- _S9SLIDE_ -->
+<h1 id="remotes">Remotes</h1>
+
+<ul>
+  <li>Used to interact with remote Git repositories
+    <ul>
+      <li>Retrieve changes made by other developers</li>
+      <li>Publish your changes for review</li>
+      <li>etc…</li>
+    </ul>
+  </li>
+  <li><code>git remote</code></li>
+  <li><code>git pull</code></li>
+  <li><code>git push</code></li>
+</ul>
+
+
+
+        </section>
+        
+        <section>
+          <!-- _S9SLIDE_ -->
+<h1 id="rebase">Rebase</h1>
+
+<ul>
+  <li><code>git rebase</code></li>
+  <li>Allows rewriting history
+    <ul>
+      <li>Isn’t that bad?</li>
+    </ul>
+  </li>
+  <li>Some caveats:
+    <ul>
+      <li>Should (kind of, maybe) not be used on public/collaborative branches</li>
+    </ul>
+  </li>
+</ul>
+
+
+
+        </section>
+        
+        <section>
+          <!-- _S9SLIDE_ -->
+<h1 id="merge">Merge</h1>
+
+<ul>
+  <li><code>git merge</code></li>
+  <li>Typically used to bring in changes from a feature branch with a
+stable/develop/master branch</li>
+  <li>Should not be used to keep a feature branch up to date with it’s parent branch</li>
+</ul>
+
+
+
+        </section>
+        
+        <section>
+          <!-- _S9SLIDE_ -->
+<h1 id="workflows">Workflows</h1>
+
+<ul>
+  <li>Set of “rules” for interacting with\making changes to your codebase</li>
+  <li>Common examples:
+    <ul>
+      <li>Gitflow</li>
+      <li>Feature branching</li>
+    </ul>
+  </li>
+  <li>Requires management/enforcement</li>
+  <li>No generic solution</li>
+  <li>More info: <code>https://www.atlassian.com/git/tutorials/comparing-workflows</code></li>
+</ul>
+
+
+
+        </section>
+        
+        <section>
+          <!-- _S9SLIDE_ -->
+<h1 id="good-commit-practice">Good Commit Practice</h1>
+
+<ul>
+  <li>Why?
+    <ul>
+      <li>Git history lasts as long as your project</li>
+      <li>Developers may leave (or even forget details of code they write)</li>
+    </ul>
+  </li>
+  <li>How?
+    <ul>
+      <li>Good commit messages (<code>https://chris.beams.io/posts/git-commit</code>)</li>
+      <li>Sensible commit history</li>
+    </ul>
+  </li>
+</ul>
+
+
+
+        </section>
+        
+        <section>
+          <!-- _S9SLIDE_ -->
+<h1 id="questions">Questions?</h1>
+
+        </section>
+        
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

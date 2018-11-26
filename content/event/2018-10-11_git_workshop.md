@@ -18,3 +18,5 @@ laptops with [Git](https://git-scm.com/) already installed.
 
 If you plan to attend, please sign up
 [here](https://www.eventbrite.co.uk/e/software-engineering-community-git-workshop-tickets-50739249461).
+
+Slides are available [here](/presentation_content/2018-11-13/git.html).
